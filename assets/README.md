@@ -66,6 +66,18 @@ Vector PDFs. Edit in Illustrator / Inkscape / Affinity Designer. Never flatten t
 <meta name="twitter:image" content="https://manna.coffee/og-image.png">
 ```
 
+## fonts/ — Self-hosted font files
+
+All three brand fonts bundled as TTF + WOFF2 for offline use and design-tool import. OFL 1.1 licensed.
+
+| Family | Role | Weights | Notes |
+|---|---|---|---|
+| `baloo-2/` | Brand / display (official) | 500, 600, 700, 800 | Use on all brand-facing surfaces |
+| `manrope/` | UI / data (extension) | 400, 500, 600, 700 | Dense UI only — tables, forms, labels |
+| `jetbrains-mono/` | Numeric / code (extension) | 400, 500 | Numbers, code, API responses |
+
+Source: [google-webfonts-helper](https://gwfh.mranftl.com/) (Google Fonts mirror). Filenames follow `{family}-v{version}-{subset}-{weight}.{format}`. Use TTF for design tools and desktop install, WOFF2 for web production.
+
 ## tokens/ — Design tokens
 
 | File | Format | Use |

@@ -19,6 +19,7 @@ Curated subset of the Manna Coffee brand + design system for feeding into design
 | `assets/logos/` | Master vector logos — 5 PDF variants (horizontal/vertical × mint/white). |
 | `assets/favicons/` | Browser + PWA + Apple touch icons (SVG + PNG all sizes). |
 | `assets/social/` | OG image, Instagram square, Story, LinkedIn banner. |
+| `assets/fonts/` | Self-hosted fonts — Baloo 2 (500/600/700/800), Manrope (400/500/600/700), JetBrains Mono (400/500). TTF + WOFF2, OFL 1.1. |
 
 ## Anchor values (quick reference)
 
