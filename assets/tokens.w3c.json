@@ -1,0 +1,75 @@
+{
+  "$description": "Manna Coffee design tokens — W3C Design Tokens Community Group format (draft). Use this variant for tools that follow the official spec (e.g., Style Dictionary with the DTCG format, modern token tools). For Figma Tokens Studio plugin, use tokens.json (legacy format).",
+  "color": {
+    "brand": {
+      "forest": { "$value": "#2E4B46", "$type": "color", "$description": "Official primary dark anchor — CEO brandbook" },
+      "mint":   { "$value": "#98E086", "$type": "color", "$description": "Official accent light anchor — CEO brandbook" },
+      "black":  { "$value": "#000000", "$type": "color" }
+    },
+    "primary": {
+      "50":  { "$value": "#EEF2F1", "$type": "color" },
+      "100": { "$value": "#D8E1DF", "$type": "color" },
+      "200": { "$value": "#B2C4C0", "$type": "color" },
+      "300": { "$value": "#8BA6A0", "$type": "color" },
+      "400": { "$value": "#5C7973", "$type": "color" },
+      "500": { "$value": "#2E4B46", "$type": "color" },
+      "600": { "$value": "#263D39", "$type": "color" },
+      "700": { "$value": "#1E302D", "$type": "color" },
+      "800": { "$value": "#162321", "$type": "color" },
+      "900": { "$value": "#0E1614", "$type": "color" }
+    },
+    "accent": {
+      "50":  { "$value": "#F4FCF1", "$type": "color" },
+      "100": { "$value": "#E6F8E1", "$type": "color" },
+      "200": { "$value": "#CCF1C3", "$type": "color" },
+      "300": { "$value": "#B3E9A5", "$type": "color" },
+      "400": { "$value": "#A6E496", "$type": "color" },
+      "500": { "$value": "#98E086", "$type": "color" },
+      "600": { "$value": "#7BC36B", "$type": "color" },
+      "700": { "$value": "#5FA051", "$type": "color" },
+      "800": { "$value": "#437639", "$type": "color" },
+      "900": { "$value": "#294A22", "$type": "color" }
+    },
+    "cta": {
+      "500": { "$value": "#FF6B55", "$type": "color" },
+      "600": { "$value": "#D95B48", "$type": "color" },
+      "700": { "$value": "#B34B3C", "$type": "color" }
+    },
+    "warm": {
+      "500": { "$value": "#C4956A", "$type": "color" }
+    },
+    "ink": {
+      "500": { "$value": "#141D24", "$type": "color" }
+    }
+  },
+  "font": {
+    "family": {
+      "brand": { "$value": "Baloo 2, system-ui, sans-serif", "$type": "fontFamily" },
+      "ui":    { "$value": "Manrope, system-ui, sans-serif", "$type": "fontFamily" },
+      "mono":  { "$value": "JetBrains Mono, monospace", "$type": "fontFamily" }
+    },
+    "size": {
+      "base":    { "$value": "16px", "$type": "dimension" },
+      "large":   { "$value": "24px", "$type": "dimension" },
+      "xl":      { "$value": "30px", "$type": "dimension" },
+      "display": { "$value": "48px", "$type": "dimension" }
+    }
+  },
+  "spacing": {
+    "xs":   { "$value": "4px",  "$type": "dimension" },
+    "sm":   { "$value": "8px",  "$type": "dimension" },
+    "md":   { "$value": "12px", "$type": "dimension" },
+    "base": { "$value": "16px", "$type": "dimension" },
+    "lg":   { "$value": "24px", "$type": "dimension" },
+    "xl":   { "$value": "32px", "$type": "dimension" },
+    "2xl":  { "$value": "48px", "$type": "dimension" },
+    "3xl":  { "$value": "64px", "$type": "dimension" }
+  },
+  "radius": {
+    "sm":   { "$value": "6px",     "$type": "dimension" },
+    "md":   { "$value": "10px",    "$type": "dimension" },
+    "lg":   { "$value": "14px",    "$type": "dimension" },
+    "xl":   { "$value": "18px",    "$type": "dimension" },
+    "full": { "$value": "9999px",  "$type": "dimension" }
+  }
+}
